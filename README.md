@@ -40,9 +40,9 @@ The input of IBMQ devices are called jobs. Each job can contain several quantum 
 -g [the group name of your IBMQ account]
 -p [the project name of your IBMQ account]
 ```
-Consider the case where one decided to run 2 jobs, each job consisting of 10 random number generation circuits. This should yield 2 * 10 = 20 sequences per qubit. Under the default setting, which is set at the maximum number of shots on any IBMQ device, each sequence is 8,192 bits long.
+Consider the case where one decided to run 2 jobs, each job consisting of 100 random number generation circuits. This should yield 2 * 100 = 200 sequences per qubit. Under the default setting, which is set at the maximum number of shots on any IBMQ device, each sequence is 8,192 bits long.
 ```
-python3 generate.py -d test -b ibmq_cambridge -c 10 -j 2 -u ibm-q-keio -g keio-internal -p keio-students
+python3 generate.py -d test -b ibmq_cambridge -c 100 -j 2 -u ibm-q-keio -g keio-internal -p keio-students
 ```
 Upon execution, `generate.py` yields 3 folders under the specified directory, which in this case is `test`.
 ```
