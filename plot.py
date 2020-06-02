@@ -106,7 +106,7 @@ def main(args):
     #plt.imshow(df, aspect="auto", interpolation="nearest")
     plt.xticks(np.arange(xlim, step=1), fontsize=size)
     plt.yticks(np.arange(ylim, step=10), fontsize=size)
-    plt.ylabel("Job number", fontsize=size)
+    plt.ylabel("Sample number", fontsize=size)
     plt.xlabel("Qubit number", fontsize=size)
 
     colors = [ [0,0,0], [0.5,0.5,0.5], [1,1,1] ]
