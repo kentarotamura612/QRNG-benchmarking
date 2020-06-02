@@ -65,13 +65,6 @@ autocorr - where the p-values and test statistic values are stored.
 figures - where the temporal correlation figure is stored.
 ```
 
-# Author
-
-Should you have any questions or problems, please contact the author.
-- Name: Kentaro Tamura
-- Institution: Department of Applied Physics and Physico-Informatics, Keio University
-- Email address: cicero@keio.jp
-
 # References
 [1] Y. Shikano, K. Tamura and R. Raymond, "Detecting Temporal Correlation via Quantum Random Number Generation", EPTCS 315, 18-25 (2020). (http://eptcs.web.cse.unsw.edu.au/paper.cgi?QSQW19.2)
 
