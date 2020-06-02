@@ -72,4 +72,4 @@ figures - where the temporal correlation figure is stored.
 (https://arxiv.org/abs/1906.04410)
 
 [3] K. Tamura and Y. Shikano, "Quantum Random Number Generation with the Superconducting Quantum Computer IBM 20Q Tokyo", in Proceedings of Workshop on Quantum Computing and Quantum Information, edited by Mika Hirvensalo and Abuzer Yakaryilmaz, TUCS Lecture Notes 30, 13 - 25 (2019).
-(https://www.utupub.fi/handle/10024/147810)
+(https://www.utupub.fi/handle/10024/147810); Cryptology ePrint Archive: Report 2020/078 (https://eprint.iacr.org/2020/078)
