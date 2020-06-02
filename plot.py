@@ -85,7 +85,7 @@ def main(args):
         sequence = list(map(int,f.read()))
         NSHOTS = len(sequence)//NSAMPS
         for index in range(NSAMPS):
-            print(f"checking temporal correlation of qubit{qnum} sample{index}")
+            print(f"checking temporal correlation of qubit{qnum} sample{index+1}")
             seq = sequence[index*NSHOTS:index*NSHOTS+NSHOTS]
             prop = pro(seq)
             obs, pval = auto(seq, prop, 1)
